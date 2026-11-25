@@ -3,6 +3,7 @@ public class ForLoop {
         int i = 1;
         for (i=1 ; i<6 ;i++){
             System.out.println(i + " Hello!!  World ... ");
+            System.out.println(i + " Hello!!  World2 ... ");
         }
     }
 }
