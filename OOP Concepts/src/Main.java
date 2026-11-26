@@ -1,13 +1,22 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+class main {
+  static void main(String[] args) {
+//        CLASS AND OBJECT
+        Students s1 = new Students();
+        s1.id = 101;
+        s1.name = "krishna";
+        s1.study();
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+//          Method
+        Calculator calc = new Calculator();
+       int result =  calc.add(12,15);
+        System.out.println(result);
+
+//        Method Overloading
+        int result1 = calc.add(10,20,30);
+        System.out.println(result1);
+
+        double result2 = calc.add(11.11 ,12.00 , 13.55);
+        System.out.println(result);
+
     }
 }
